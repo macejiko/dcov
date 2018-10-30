@@ -1,10 +1,13 @@
 # PoC for python app coverage in docker
 
 This is dockerized Django app from django-rest-framework tutorial with installed coverage.py tool
+
 Fork from here: https://github.com/encode/rest-framework-tutorial
+
 You could install it locally or via docker
 
 Admin user: admin / 123
+
 *Coverage data is saved when server is stopped*
 
 ## Local
@@ -32,7 +35,7 @@ python manage.py runserver
 ./local_coverage.sh
 ```
 
-Coverage will be in `coverage/` dir. HTML will be there as well
+Coverage will be in `coverage/` dir. HTML report will be there as well
 
 ## Docker
 
