@@ -6,7 +6,7 @@ Fork from here: https://github.com/encode/rest-framework-tutorial
 
 You could install it locally or via docker
 
-Admin user: admin / 123
+**Admin user: admin / 123**
 
 *Coverage data is saved when server is stopped*
 
