@@ -1,7 +1,7 @@
 FROM centos
 
-WORKDIR /poc
-COPY . /poc
+WORKDIR /dcov
+COPY . /dcov
 
 RUN yum -y update && yum clean all && \
     curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py" && \
